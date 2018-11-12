@@ -8,6 +8,9 @@ torch = "==0.4.1"
 jupyter = "*"
 pyro-ppl = "*"
 pyprob = {editable = true, git = "https://github.com/probprog/pyprob.git"}
+edward = ">=1.3.5"
+pip = "==18.0"
+tensorflow = ">=1.12.0"
 
 [dev-packages]
 
