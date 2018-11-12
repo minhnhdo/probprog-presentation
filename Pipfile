@@ -10,6 +10,7 @@ pyro-ppl = "*"
 pyprob = {editable = true, git = "https://github.com/probprog/pyprob.git"}
 pip = "==18.0"
 tensorflow = ">=1.12.0"
+tensorflow-probability = ">=0.5"
 
 [dev-packages]
 
