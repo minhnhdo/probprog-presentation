@@ -4,10 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyprob = "*"
 torch = "==0.4.1"
 jupyter = "*"
 pyro-ppl = "*"
+pyprob = {editable = true, git = "https://github.com/probprog/pyprob.git"}
 
 [dev-packages]
 
